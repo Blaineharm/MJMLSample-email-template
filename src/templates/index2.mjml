@@ -5,7 +5,7 @@
   <mj-body>
     <mj-section>
       <mj-column>
-        <mj-text font-size="20px" color="#000000"> Second email with footer</mj-text>
+        <mj-text font-size="20px" color="#000000">Second email with test</mj-text>
       </mj-column>
     </mj-section>
 
