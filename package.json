@@ -1,0 +1,24 @@
+{
+  "name": "MJMLSample-email-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node buildTemplates.js",
+    "send": "node sendEmail.js",
+    "dev": "yarn build && yarn send",
+    "start": "mjml --watch src/templates/*.mjml --output src/templates/ --config.filePath src/templates",
+    "buildNoNode": "mjml src/templates/*.mjml --output src/templates/ --config.filePath src/templates",
+    "server": "live-server --host=localhost --open=src/templates",
+    "devConcurrent": "concurrently \"yarn start\" \"yarn server\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "live-server": "^1.2.2",
+    "mjml": "^4.15.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "node-mailjet": "^6.0.8"
+  }
+}

@@ -1,0 +1,14 @@
+<mjml>
+  <mj-head>
+    <mj-title>My second Email</mj-title>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="20px" color="#000000"> Second email with footer</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Include the shared footer component -->
+  </mj-body>
+</mjml>
