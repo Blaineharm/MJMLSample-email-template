@@ -1,0 +1,15 @@
+<mjml>
+  <mj-head>
+    <mj-title>My Email</mj-title>
+  </mj-head>
+  <mj-body>
+    <mj-include path="../../components/headerShared.mjml" />
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="20px" color="#000000">Hello, {{FirstName}} {{LastName}}</mj-text>
+        <mj-text>Customer number {{AccountNumber}}</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="../../components/footerShared.mjml" />
+  </mj-body>
+</mjml>

@@ -1,9 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 const mjml = require('mjml');
-const Mailjet = require('node-mailjet');
-//require('dotenv').config(); // Load environment variables from .env file for api key
-//mailjet or sendgrid TODO: make it work =P
 
 // Read command line arguments for placeholders and template
 const args = process.argv.slice(2);
@@ -47,7 +44,7 @@ if (!mjmlTemplatePath) {
 
 // Function to resolve and replace <mj-include>
 function resolveIncludes(content, basePath) {
-  return content.replace(/<mj-include path="(.*?)"\s*\/>/g, (match, includePath) => {
+  return content.replace(/<mj-include path="(.*?)"\s*\/?>/g, (match, includePath) => {
     const includeFilePath = path.resolve(basePath, includePath);
     if (fs.existsSync(includeFilePath)) {
       return fs.readFileSync(includeFilePath, 'utf8');
@@ -74,37 +71,15 @@ fs.readFile(mjmlTemplatePath, 'utf8', (err, mjmlContent) => {
   });
 
   // Convert MJML to HTML
-  const { html, errors } = mjml(processedMjml);
+  const { html, errors } = mjml(processedMjml, { filePath: mjmlTemplatePath });
 
   if (errors.length > 0) {
     console.error('MJML Conversion Errors:', errors);
     return;
   }
 
-  console.log('Generated HTML:\n', html);
-
-  // Send the email using Mailjet API
-  const mailjet = Mailjet.apiConnect(
-    '3e14a321932092bef164b8e368bf2c59',
-    'd7f2640fdc0c0af2d4fcbe12243f7341'
-  );
-
-  const request = mailjet
-    .post('send', { version: 'v3.1' })
-    .request({
-      Messages: [
-        {
-          From: { Email: 'bharmsen@qualco.co.uk', Name: 'Test Email' },
-          To: [{ Email: 'bharmsen@qualco.co.uk', Name: 'Test Email' }],
-          Subject: 'Test email subject',
-          TextPart: 'Test Email text part',
-          HTMLPart: html,
-        },
-      ],
-    });
-
-  // Handle request response
-  request
-    .then((result) => console.log('Email sent successfully:', result.body))
-    .catch((err) => console.error('Error sending email:', err.statusCode));
+  // Write to an HTML file in the same folder as the MJML template, replacing if it exists
+  const outputFilePath = mjmlTemplatePath.replace('.mjml', '.html');
+  fs.writeFileSync(outputFilePath, html, { flag: 'w' });
+  console.log(`✅ Generated: ${outputFilePath}`);
 });

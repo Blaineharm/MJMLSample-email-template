@@ -2,13 +2,15 @@ const fs = require('fs');
 const path = require('path');
 const mjml = require('mjml');
 const Mailjet = require('node-mailjet');
-//require('dotenv').config(); // Load environment variables from .env file for api key
-//mailjet or sendgrid TODO: make it work =P
+require('dotenv').config(); // Load environment variables from .env file
 
 // Read command line arguments for placeholders and template
-const args = process.argv.slice(2);
+const args = process.argv.slice(2); // Extract arguments passed to script
 const placeholders = {};
-let templateName = 'defaultTemplate.mjml';
+let templateName = 'defaultTemplate.mjml'; // Default template name
+
+// Example of how placeholders could be passed:
+// node processMJML.js --template "customTemplate.mjml" --name "John Doe" --order_id "12345"
 
 args.forEach((arg, index) => {
   if (arg.startsWith('--')) {
@@ -17,33 +19,13 @@ args.forEach((arg, index) => {
     if (key === 'template' && value) {
       templateName = value; // Set the template name if specified
     } else if (value && !value.startsWith('--')) {
-      placeholders[`{{${key}}}`] = value;
+      placeholders[`{{${key}}}`] = value; // Replace placeholders
     }
   }
 });
 
-// Function to find the template file in any subfolder of streams
-function findTemplateFile(baseDir, fileName) {
-  let files = fs.readdirSync(baseDir, { withFileTypes: true });
-  for (let file of files) {
-    let fullPath = path.join(baseDir, file.name);
-    if (file.isDirectory()) {
-      let found = findTemplateFile(fullPath, fileName);
-      if (found) return found;
-    } else if (file.name === fileName) {
-      return fullPath;
-    }
-  }
-  return null;
-}
-
-const streamsDir = path.resolve(__dirname, './src/streams');
-const mjmlTemplatePath = findTemplateFile(streamsDir, templateName);
-
-if (!mjmlTemplatePath) {
-  console.error(`Error: Template file '${templateName}' not found in src/streams folder.`);
-  process.exit(1);
-}
+// Define the path to the MJML template (prepend the directory path)
+const mjmlTemplatePath = path.resolve(__dirname, './src/templates', templateName);
 
 // Function to resolve and replace <mj-include>
 function resolveIncludes(content, basePath) {
@@ -81,7 +63,8 @@ fs.readFile(mjmlTemplatePath, 'utf8', (err, mjmlContent) => {
     return;
   }
 
-  console.log('Generated HTML:\n', html);
+  console.log('Generated HTML:');
+  console.log(html);
 
   // Send the email using Mailjet API
   const mailjet = Mailjet.apiConnect(
@@ -89,22 +72,35 @@ fs.readFile(mjmlTemplatePath, 'utf8', (err, mjmlContent) => {
     'd7f2640fdc0c0af2d4fcbe12243f7341'
   );
 
+
   const request = mailjet
     .post('send', { version: 'v3.1' })
     .request({
       Messages: [
         {
-          From: { Email: 'bharmsen@qualco.co.uk', Name: 'Test Email' },
-          To: [{ Email: 'bharmsen@qualco.co.uk', Name: 'Test Email' }],
+          From: {
+            Email: 'bharmsen@qualco.co.uk',
+            Name: 'Test Email'
+          },
+          To: [
+            {
+              Email: 'bharmsen@qualco.co.uk',
+              Name: 'Test Email'
+            }
+          ],
           Subject: 'Test email subject',
           TextPart: 'Test Email text part',
-          HTMLPart: html,
-        },
-      ],
+          HTMLPart: html // Send the actual HTML content
+        }
+      ]
     });
 
   // Handle request response
   request
-    .then((result) => console.log('Email sent successfully:', result.body))
-    .catch((err) => console.error('Error sending email:', err.statusCode));
+    .then((result) => {
+      console.log('Email sent successfully:', result.body);
+    })
+    .catch((err) => {
+      console.error('Error sending email:', err.statusCode);
+    });
 });
