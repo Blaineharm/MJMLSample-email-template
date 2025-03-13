@@ -3,13 +3,13 @@
     <mj-title>My Email</mj-title>
   </mj-head>
   <mj-body>
-    <mj-include path="../../components/headerShared.mjml" />
+    <mj-include path="../../components/Scottish Power Header Shared.mjml" />
     <mj-section>
       <mj-column>
         <mj-text font-size="20px" color="#000000">Hello, {{FirstName}} {{LastName}}</mj-text>
         <mj-text>Customer number {{AccountNumber}}</mj-text>
       </mj-column>
     </mj-section>
-    <mj-include path="../../components/footerShared.mjml" />
+    <mj-include path="../../components/Scottish Power Footer Shared.mjml" />
   </mj-body>
 </mjml>

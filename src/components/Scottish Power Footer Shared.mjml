@@ -1,0 +1,6 @@
+<!-- footer.mjml -->
+<mj-section>
+  <mj-column>
+    <mj-text font-size="12px" color="#000000" align="center"> 2024 Scottish Power. All Rights Reserved. </mj-text>
+  </mj-column>
+</mj-section>
