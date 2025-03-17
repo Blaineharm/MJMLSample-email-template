@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MJMLSample-email-template")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed7b14eb6b9de759dfe08bf080de256345a9508c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a903ac8b9df70af74c30f24ab656e6af1d1eaefe")]
 [assembly: System.Reflection.AssemblyProductAttribute("MJMLSample-email-template")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MJMLSample-email-template")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
