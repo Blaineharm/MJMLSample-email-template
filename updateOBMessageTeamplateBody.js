@@ -1,6 +1,7 @@
 const sql = require('mssql');
 const fs = require('fs');
 const path = require('path');
+const configSetting = require('./config');
 
 // Set up log file path
 const logFilePath = path.join(__dirname, 'script.log');
@@ -12,12 +13,11 @@ function logToFile(message) {
   fs.appendFileSync(logFilePath, logMessage, 'utf8');
 }
 
-// Database connection configuration
 const config = {
-  user: 'qbc_user',
-  password: 'qbc_user',
-  server: '10.45.35.197',
-  database: 'QBCollection_Plus_UAT',
+  user: configSetting.USER,
+  password: configSetting.PASSWORD,
+  server: configSetting.UAT_SERVER,
+  database: configSetting.UAT_DATABASE,
   options: {
     encrypt: false,
     trustServerCertificate: true

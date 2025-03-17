@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bharmsen\\source\\repos\\MJMLSample-email-template\\MJMLSample-email-template.csproj": {}
+    "C:\\Users\\bharmsen\\source\\repos\\EmailTemplateMJMLToHTMLConverter\\MJMLSample-email-template.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bharmsen\\source\\repos\\MJMLSample-email-template\\MJMLSample-email-template.csproj": {
+    "C:\\Users\\bharmsen\\source\\repos\\EmailTemplateMJMLToHTMLConverter\\MJMLSample-email-template.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bharmsen\\source\\repos\\MJMLSample-email-template\\MJMLSample-email-template.csproj",
+        "projectUniqueName": "C:\\Users\\bharmsen\\source\\repos\\EmailTemplateMJMLToHTMLConverter\\MJMLSample-email-template.csproj",
         "projectName": "MJMLSample-email-template",
-        "projectPath": "C:\\Users\\bharmsen\\source\\repos\\MJMLSample-email-template\\MJMLSample-email-template.csproj",
+        "projectPath": "C:\\Users\\bharmsen\\source\\repos\\EmailTemplateMJMLToHTMLConverter\\MJMLSample-email-template.csproj",
         "packagesPath": "C:\\Users\\bharmsen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bharmsen\\source\\repos\\MJMLSample-email-template\\obj\\",
+        "outputPath": "C:\\Users\\bharmsen\\source\\repos\\EmailTemplateMJMLToHTMLConverter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

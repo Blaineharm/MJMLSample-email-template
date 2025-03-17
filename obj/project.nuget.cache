@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OJg8AW9oBWc=",
+  "dgSpecHash": "HDXjlylAkuw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bharmsen\\source\\repos\\MJMLSample-email-template\\MJMLSample-email-template.csproj",
+  "projectFilePath": "C:\\Users\\bharmsen\\source\\repos\\EmailTemplateMJMLToHTMLConverter\\MJMLSample-email-template.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bharmsen\\.nuget\\packages\\mailjet.api\\3.0.0\\mailjet.api.3.0.0.nupkg.sha512",
     "C:\\Users\\bharmsen\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
