@@ -85,8 +85,8 @@ fs.readFile(mjmlTemplatePath, 'utf8', (err, mjmlContent) => {
 
   // Send the email using Mailjet API
   const mailjet = Mailjet.apiConnect(
-    '3e14a321932092bef164b8e368bf2c59',
-    'd7f2640fdc0c0af2d4fcbe12243f7341'
+    config.SENDMAILJET_APIKEY,
+    config.SENDMAILJET_SECRETKEY
   );
 
   const request = mailjet

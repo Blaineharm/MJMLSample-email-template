@@ -1,15 +1,18 @@
-require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 const mjml = require('mjml');
 const sgMail = require('@sendgrid/mail');
+const config = require('./config');
+
 
 // Set up SendGrid API Key
-sgMail.setApiKey("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");
+sgMail.setApiKey(config.API_KEY);
 
 // Logging setup
 const logDir = path.resolve(__dirname, './logs');
 const logFile = path.join(logDir, 'email_script.log');
+
+console.log('✅ API Key:', config.API_KEY);
 
 // Ensure logs directory exists
 if (!fs.existsSync(logDir)) {
