@@ -4,7 +4,7 @@ const mjml = require('mjml');
 
 // Logging setup
 const logDir = path.resolve(__dirname, './logs');
-const logFile = path.join(logDir, 'mjml_conversion.log');
+const logFile = path.join(logDir, 'BuildTemplateWithArgs_script.log');
 
 // Ensure logs directory exists
 if (!fs.existsSync(logDir)) {
