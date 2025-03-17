@@ -1,0 +1,7 @@
+[2025-03-17T11:52:47.400Z] 🚀 Script started
+[2025-03-17T11:52:47.407Z] 📌 Using template: Scottish Power Prime Jan25 S01 V01 A01.mjml
+[2025-03-17T11:52:47.409Z] 📄 Template found: C:\Users\bharmsen\source\repos\MJMLSample-email-template\src\streams\Scottish Power Prime Jan25\Scottish Power Prime Jan25 S01 V01 A01.mjml
+[2025-03-17T11:52:47.412Z] ✅ Included file: C:\Users\bharmsen\source\repos\MJMLSample-email-template\src\components\Scottish Power Header Shared.mjml
+[2025-03-17T11:52:47.416Z] ✅ Included file: C:\Users\bharmsen\source\repos\MJMLSample-email-template\src\components\Scottish Power Footer Shared.mjml
+[2025-03-17T11:52:47.443Z] ✅ MJML conversion successful
+[2025-03-17T11:52:47.446Z] ✅ Generated HTML: C:\Users\bharmsen\source\repos\MJMLSample-email-template\src\streams\Scottish Power Prime Jan25\Scottish Power Prime Jan25 S01 V01 A01.html

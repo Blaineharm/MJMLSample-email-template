@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "node buildTemplates.js",
-    "send": "node sendEmail.js",
+    "build": "node BuildTemplateWithArgs.js",
+    "send": "node sendTestEmailUsingSendgrid.js",
     "dev": "yarn build && yarn send",
     "start": "mjml --watch src/templates/*.mjml --output src/templates/ --config.filePath src/templates",
     "buildNoNode": "mjml src/templates/*.mjml --output src/templates/ --config.filePath src/templates",
@@ -18,7 +18,10 @@
     "mjml": "^4.15.3"
   },
   "dependencies": {
+    "@sendgrid/mail": "^8.1.4",
     "dotenv": "^16.4.7",
+    "mssql": "^11.0.1",
+    "mysql2": "^3.13.0",
     "node-mailjet": "^6.0.8"
   }
 }
