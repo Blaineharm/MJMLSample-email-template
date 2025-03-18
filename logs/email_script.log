@@ -68,3 +68,39 @@
 [2025-03-17T14:45:57.329Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\Scottish Power Footer Shared.mjml
 [2025-03-17T14:45:57.352Z] ✅ MJML conversion successful
 [2025-03-17T14:45:57.771Z] ✅ Email sent successfully!
+[2025-03-17T15:30:05.150Z] 🚀 Script started
+[2025-03-17T15:30:05.152Z] 📌 Using template: Scottish Power Prime Jan25 S01 V01 A01.mjml
+[2025-03-17T15:30:05.154Z] 📄 Template found: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Scottish Power Prime Jan25\Scottish Power Prime Jan25 S01 V01 A01.mjml
+[2025-03-17T15:30:05.158Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\Scottish Power Header Shared.mjml
+[2025-03-17T15:30:05.160Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\Scottish Power Footer Shared.mjml
+[2025-03-17T15:30:05.182Z] ✅ MJML conversion successful
+[2025-03-17T15:30:05.590Z] ✅ Email sent successfully!
+[2025-03-17T15:39:20.958Z] 🚀 Script started
+[2025-03-17T15:39:20.961Z] 📌 Using template: Scottish Power Prime Jan25 S01 V01 A01.mjml
+[2025-03-17T15:39:20.963Z] 📄 Template found: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Scottish Power Prime Jan25\Scottish Power Prime Jan25 S01 V01 A01.mjml
+[2025-03-17T15:39:20.972Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\Scottish Power Header Shared.mjml
+[2025-03-17T15:39:20.974Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\Scottish Power Footer Shared.mjml
+[2025-03-17T15:39:20.996Z] ✅ MJML conversion successful
+[2025-03-17T15:39:21.441Z] ✅ Email sent successfully!
+[2025-03-17T16:02:07.270Z] 🚀 Script started
+[2025-03-17T16:02:07.273Z] 📌 Using template: Scottish Power Prime Jan25 S01 V01 A01.mjml
+[2025-03-17T16:02:07.275Z] 📄 Template found: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Scottish Power Prime Jan25\Scottish Power Prime Jan25 S01 V01 A01.mjml
+[2025-03-17T16:02:07.283Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\Scottish Power Header Shared.mjml
+[2025-03-17T16:02:07.285Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\Scottish Power Footer Shared.mjml
+[2025-03-17T16:02:07.308Z] ✅ MJML conversion successful
+[2025-03-17T16:02:07.741Z] ✅ Email sent successfully!
+[2025-03-17T16:21:10.168Z] 🚀 Script started
+[2025-03-17T16:21:10.170Z] 📌 Using template: Scottish Power 2nd Collect S01 A01.mjml
+[2025-03-17T16:21:10.172Z] 📄 Template found: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Scottish Power 2nd Collect\Scottish Power 2nd Collect S01 A01.mjml
+[2025-03-17T16:21:10.176Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\Scottish Power Header Shared.mjml
+[2025-03-17T16:21:10.178Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\Scottish Power Footer Shared.mjml
+[2025-03-17T16:21:10.198Z] ✅ MJML conversion successful
+[2025-03-17T16:21:10.628Z] ✅ Email sent successfully!
+[2025-03-17T16:30:21.813Z] 📄 Template found: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Scottish Power 2nd Collect\Scottish Power 2nd Collect S01 A01.mjml
+[2025-03-17T16:30:59.202Z] 📄 Template found: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Scottish Power 2nd Collect\Scottish Power 2nd Collect S01 A01.mjml
+[2025-03-17T16:30:59.208Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\Scottish Power Header Shared.mjml
+[2025-03-17T16:30:59.209Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\Scottish Power Footer Shared.mjml
+[2025-03-17T16:30:59.228Z] ✅ MJML conversion successful
+[2025-03-17T16:30:59.372Z] ✅ Connected to SQL Server
+[2025-03-17T16:30:59.507Z] 📌 Template ID found: 9
+[2025-03-17T16:30:59.546Z] ✅ Template updated successfully. Rows affected: 1

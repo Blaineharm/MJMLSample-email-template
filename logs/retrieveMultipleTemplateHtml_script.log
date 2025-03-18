@@ -1,0 +1,51 @@
+[2025-03-18T10:40:23.065Z] 📌 Processing Stream: 1, StreamNumber: null
+[2025-03-18T10:40:23.454Z] ❌ Error fetching StreamId: Invalid column name 'StreamId'.
+[2025-03-18T10:50:47.293Z] 📌 Processing Stream: Scottish Power Second GT500 Oct24, StreamNumber: 1
+[2025-03-18T10:50:47.705Z] ❌ Error fetching StreamId: Invalid column name 'StreamId'.
+[2025-03-18T10:51:28.247Z] 📌 Processing Stream: Scottish Power Second GT500 Oct24, StreamNumber: 1
+[2025-03-18T10:55:06.163Z] 📌 Processing Stream: Scottish Power Second GT500 Oct24, StreamNumber: 1
+[2025-03-18T10:55:29.438Z] 📌 Processing Stream: Scottish Power Second GT500 Oct24, StreamNumber: 1
+[2025-03-18T10:56:55.666Z] 📌 Processing Stream: Scottish Power Second GT500 Oct24, StreamNumber: 1
+[2025-03-18T10:58:31.565Z] 📌 Processing Stream: Scottish Power Second GT500 Oct24, StreamNumber: 1
+[2025-03-18T10:59:16.264Z] 📌 Processing Stream: Scottish Power Second GT500 Oct24, StreamNumber: 1
+[2025-03-18T11:00:25.605Z] 📌 Processing Stream: Scottish Power Second GT500 Oct24, StreamNumber: 1
+[2025-03-18T11:00:56.546Z] 📌 Processing Stream: Scottish Power Second GT500 Oct24, StreamNumber: 1
+[2025-03-18T11:00:57.307Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24_Stream1_template_1.html
+[2025-03-18T11:00:57.308Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24_Stream1_template_2.html
+[2025-03-18T11:00:57.352Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24_Stream1_template_3.html
+[2025-03-18T11:00:57.356Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24_Stream1_template_4.html
+[2025-03-18T11:00:57.358Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24_Stream1_template_5.html
+[2025-03-18T11:00:57.361Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24_Stream1_template_6.html
+[2025-03-18T11:00:57.363Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24_Stream1_template_7.html
+[2025-03-18T11:01:28.137Z] 📌 Processing Stream: Scottish Power Second GT500 Oct24, StreamNumber: 1
+[2025-03-18T11:01:28.913Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24_Stream1_template_1.html
+[2025-03-18T11:01:28.914Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24_Stream1_template_2.html
+[2025-03-18T11:01:28.916Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24_Stream1_template_3.html
+[2025-03-18T11:01:28.917Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24_Stream1_template_4.html
+[2025-03-18T11:01:28.919Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24_Stream1_template_5.html
+[2025-03-18T11:01:28.921Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24_Stream1_template_6.html
+[2025-03-18T11:01:28.923Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24_Stream1_template_7.html
+[2025-03-18T11:04:30.016Z] 📌 Processing Stream: Scottish Power Second GT500 Oct24, StreamNumber: 1
+[2025-03-18T11:04:30.996Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Stream1_template_1.html
+[2025-03-18T11:04:30.998Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Stream1_template_2.html
+[2025-03-18T11:04:31.000Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Stream1_template_3.html
+[2025-03-18T11:04:31.003Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Stream1_template_4.html
+[2025-03-18T11:04:31.005Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Stream1_template_5.html
+[2025-03-18T11:04:31.009Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Stream1_template_6.html
+[2025-03-18T11:04:31.011Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Stream1_template_7.html
+[2025-03-18T11:09:02.813Z] 📌 Processing Stream: Scottish Power Second GT500 Oct24, StreamNumber: 1
+[2025-03-18T11:09:03.625Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Scottish Power Second GT500 Oct24 S01 V01 A03.html
+[2025-03-18T11:09:03.627Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Scottish Power Second GT500 Oct24 S01 V01 A06.html
+[2025-03-18T11:09:03.628Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Scottish Power Second GT500 Oct24 S01 V01 A09.html
+[2025-03-18T11:09:03.630Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Scottish Power Second GT500 Oct24 S01 V01 A01.html
+[2025-03-18T11:09:03.632Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Scottish Power Second GT500 Oct24 S01 V01 A05.html
+[2025-03-18T11:09:03.633Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Scottish Power Second GT500 Oct24 S01 V01 A07.html
+[2025-03-18T11:09:03.635Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Scottish Power Second GT500 Oct24 S01 V01 A10.html
+[2025-03-18T11:16:52.008Z] 📌 Processing Stream: Scottish Power Second GT500 Oct24, StreamNumber: 1
+[2025-03-18T11:16:52.608Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Scottish Power Second GT500 Oct24 S01 V01 A03.html
+[2025-03-18T11:16:52.632Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Scottish Power Second GT500 Oct24 S01 V01 A06.html
+[2025-03-18T11:16:52.635Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Scottish Power Second GT500 Oct24 S01 V01 A09.html
+[2025-03-18T11:16:52.637Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Scottish Power Second GT500 Oct24 S01 V01 A01.html
+[2025-03-18T11:16:52.639Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Scottish Power Second GT500 Oct24 S01 V01 A05.html
+[2025-03-18T11:16:52.641Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Scottish Power Second GT500 Oct24 S01 V01 A07.html
+[2025-03-18T11:16:52.643Z] ✅ Saved template to C:\temp\Scottish Power Second GT500 Oct24\Scottish Power Second GT500 Oct24 S01 V01 A10.html

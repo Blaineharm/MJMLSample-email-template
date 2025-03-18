@@ -1,0 +1,13 @@
+[2025-03-17T16:36:58.033Z] 🚀 Script started
+[2025-03-17T16:36:58.039Z] 📌 Using template: Scottish Power 2nd Collect S01 A01.mjml
+[2025-03-17T16:36:58.042Z] 📄 Template found: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Scottish Power 2nd Collect\Scottish Power 2nd Collect S01 A01.mjml
+[2025-03-17T16:36:58.046Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\Scottish Power Header Shared.mjml
+[2025-03-17T16:36:58.050Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\Scottish Power Footer Shared.mjml
+[2025-03-17T16:36:58.102Z] ✅ MJML conversion successful
+[2025-03-17T16:36:58.105Z] ✅ Generated HTML: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Scottish Power 2nd Collect\Scottish Power 2nd Collect S01 A01.html
+[2025-03-18T09:25:54.932Z] 🚀 Script started
+[2025-03-18T09:25:54.945Z] 📌 Using template: Scottish Power 2nd Collect
+[2025-03-18T09:25:54.947Z] ❌ Error: Template 'Scottish Power 2nd Collect' not found in src/streams
+[2025-03-18T09:26:42.966Z] 🚀 Script started
+[2025-03-18T09:26:42.972Z] 📌 Using template: Scottish Power Prime Jan25
+[2025-03-18T09:26:42.974Z] ❌ Error: Template 'Scottish Power Prime Jan25' not found in src/streams

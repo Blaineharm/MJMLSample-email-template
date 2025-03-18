@@ -1,0 +1,93 @@
+[2025-03-18T13:32:14.619Z] ✅ Connected to SQL Server
+[2025-03-18T13:32:15.007Z] 📌 Stream ID found: 56
+[2025-03-18T13:32:15.037Z] ❌ Error processing stream and templates: findTemplateFile is not defined
+[2025-03-18T13:36:23.334Z] ✅ Connected to SQL Server
+[2025-03-18T13:36:23.475Z] 📌 Stream ID found: 56
+[2025-03-18T13:36:23.506Z] ❌ Template 'Moneyboat Back Book S01 V01 A01' not found in src/streams
+[2025-03-18T13:36:23.508Z] ❌ Template 'Moneyboat Back Book S01 V01 A02' not found in src/streams
+[2025-03-18T13:36:23.510Z] ❌ Template 'Moneyboat Back Book S01 V01 A03' not found in src/streams
+[2025-03-18T13:36:23.512Z] ❌ Template 'Moneyboat Back Book S01 V01 A04' not found in src/streams
+[2025-03-18T13:36:23.514Z] ❌ Template 'Moneyboat Back Book S01 V01 A05' not found in src/streams
+[2025-03-18T13:36:23.516Z] ❌ Template 'Moneyboat Back Book S01 V01 A06' not found in src/streams
+[2025-03-18T13:36:23.517Z] ❌ Template 'Moneyboat Back Book S01 V01 A07' not found in src/streams
+[2025-03-18T13:36:23.518Z] ❌ Template 'Moneyboat Back Book S01 V01 A08' not found in src/streams
+[2025-03-18T13:39:48.939Z] ✅ Connected to SQL Server
+[2025-03-18T13:39:49.073Z] 📌 Stream ID found: 56
+[2025-03-18T13:39:49.098Z] ❌ Template 'Moneyboat Back Book S01 V01 A01' not found in src/streams
+[2025-03-18T13:39:49.100Z] 📄 Template found: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Moneyboat Back Book\Moneyboat Back Book S01 V01 A02.mjml
+[2025-03-18T13:39:49.104Z] ❌ Error processing stream and templates: resolveIncludes is not defined
+[2025-03-18T13:42:47.448Z] ✅ Connected to SQL Server
+[2025-03-18T13:42:47.592Z] 📌 Stream ID found: 56
+[2025-03-18T13:42:47.621Z] 📄 Template found: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Moneyboat Back Book\Moneyboat Back Book S01 V01 A01.mjml
+[2025-03-18T13:42:47.624Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Header Shared.mjml
+[2025-03-18T13:42:47.625Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Footer Shared.mjml
+[2025-03-18T13:42:47.672Z] ✅ MJML conversion successful
+[2025-03-18T13:42:47.674Z] ✅ Connected to SQL Server
+[2025-03-18T13:42:47.737Z] ✅ Template updated successfully. Rows affected: 1
+[2025-03-18T13:42:47.739Z] 📄 Template found: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Moneyboat Back Book\Moneyboat Back Book S01 V01 A02.mjml
+[2025-03-18T13:42:47.741Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Header Shared.mjml
+[2025-03-18T13:42:47.742Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Footer Shared.mjml
+[2025-03-18T13:42:47.749Z] ✅ MJML conversion successful
+[2025-03-18T13:42:47.941Z] ✅ Connected to SQL Server
+[2025-03-18T13:42:48.074Z] ✅ Template updated successfully. Rows affected: 1
+[2025-03-18T13:42:48.075Z] ❌ Template 'Moneyboat Back Book S01 V01 A03' not found in src/streams
+[2025-03-18T13:42:48.077Z] 📄 Template found: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Moneyboat Back Book\Moneyboat Back Book S01 V01 A04.mjml
+[2025-03-18T13:42:48.079Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Header Shared.mjml
+[2025-03-18T13:42:48.080Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Footer Shared.mjml
+[2025-03-18T13:42:48.088Z] ✅ MJML conversion successful
+[2025-03-18T13:42:48.341Z] ✅ Connected to SQL Server
+[2025-03-18T13:42:48.495Z] ✅ Template updated successfully. Rows affected: 1
+[2025-03-18T13:42:48.497Z] 📄 Template found: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Moneyboat Back Book\Moneyboat Back Book S01 V01 A05.mjml
+[2025-03-18T13:42:48.499Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Header Shared.mjml
+[2025-03-18T13:42:48.500Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Footer Shared.mjml
+[2025-03-18T13:42:48.505Z] ✅ MJML conversion successful
+[2025-03-18T13:42:48.636Z] ✅ Connected to SQL Server
+[2025-03-18T13:42:48.781Z] ✅ Template updated successfully. Rows affected: 1
+[2025-03-18T13:42:48.782Z] 📄 Template found: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Moneyboat Back Book\Moneyboat Back Book S01 V01 A06.mjml
+[2025-03-18T13:42:48.784Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Header Shared.mjml
+[2025-03-18T13:42:48.785Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Footer Shared.mjml
+[2025-03-18T13:42:48.789Z] ✅ MJML conversion successful
+[2025-03-18T13:42:48.941Z] ✅ Connected to SQL Server
+[2025-03-18T13:42:49.090Z] ✅ Template updated successfully. Rows affected: 1
+[2025-03-18T13:42:49.091Z] ❌ Template 'Moneyboat Back Book S01 V01 A07' not found in src/streams
+[2025-03-18T13:42:49.092Z] 📄 Template found: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Moneyboat Back Book\Moneyboat Back Book S01 V01 A08.mjml
+[2025-03-18T13:42:49.094Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Header Shared.mjml
+[2025-03-18T13:42:49.095Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Footer Shared.mjml
+[2025-03-18T13:42:49.099Z] ✅ MJML conversion successful
+[2025-03-18T13:42:49.239Z] ✅ Connected to SQL Server
+[2025-03-18T13:42:49.447Z] ✅ Template updated successfully. Rows affected: 1
+[2025-03-18T17:14:05.331Z] ✅ Connected to SQL Server
+[2025-03-18T17:14:05.488Z] 📌 Stream ID found: 56
+[2025-03-18T17:14:05.518Z] ❌ Error processing stream and templates: Invalid column name 'Email'.
+[2025-03-18T17:15:08.141Z] ✅ Connected to SQL Server
+[2025-03-18T17:15:08.362Z] 📌 Stream ID found: 56
+[2025-03-18T17:15:08.412Z] 📄 Template found: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Moneyboat Back Book\Moneyboat Back Book S01 V01 A02.mjml
+[2025-03-18T17:15:08.417Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Header Shared.mjml
+[2025-03-18T17:15:08.419Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Footer Shared.mjml
+[2025-03-18T17:15:08.441Z] ✅ MJML conversion successful
+[2025-03-18T17:15:08.444Z] ✅ Connected to SQL Server
+[2025-03-18T17:15:08.483Z] ✅ Template updated successfully. Rows affected: 1
+[2025-03-18T17:15:08.486Z] 📄 Template found: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Moneyboat Back Book\Moneyboat Back Book S01 V01 A04.mjml
+[2025-03-18T17:15:08.488Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Header Shared.mjml
+[2025-03-18T17:15:08.490Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Footer Shared.mjml
+[2025-03-18T17:15:08.497Z] ✅ MJML conversion successful
+[2025-03-18T17:15:08.723Z] ✅ Connected to SQL Server
+[2025-03-18T17:15:08.862Z] ✅ Template updated successfully. Rows affected: 1
+[2025-03-18T17:15:08.864Z] 📄 Template found: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Moneyboat Back Book\Moneyboat Back Book S01 V01 A05.mjml
+[2025-03-18T17:15:08.867Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Header Shared.mjml
+[2025-03-18T17:15:08.868Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Footer Shared.mjml
+[2025-03-18T17:15:08.874Z] ✅ MJML conversion successful
+[2025-03-18T17:15:09.121Z] ✅ Connected to SQL Server
+[2025-03-18T17:15:09.252Z] ✅ Template updated successfully. Rows affected: 1
+[2025-03-18T17:15:09.254Z] 📄 Template found: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Moneyboat Back Book\Moneyboat Back Book S01 V01 A06.mjml
+[2025-03-18T17:15:09.256Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Header Shared.mjml
+[2025-03-18T17:15:09.257Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Footer Shared.mjml
+[2025-03-18T17:15:09.264Z] ✅ MJML conversion successful
+[2025-03-18T17:15:09.418Z] ✅ Connected to SQL Server
+[2025-03-18T17:15:09.554Z] ✅ Template updated successfully. Rows affected: 1
+[2025-03-18T17:15:09.559Z] 📄 Template found: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\streams\Moneyboat Back Book\Moneyboat Back Book S01 V01 A08.mjml
+[2025-03-18T17:15:09.562Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Header Shared.mjml
+[2025-03-18T17:15:09.563Z] ✅ Included file: C:\Users\bharmsen\source\repos\EmailTemplateMJMLToHTMLConverter\src\components\MoneyBoat Footer Shared.mjml
+[2025-03-18T17:15:09.567Z] ✅ MJML conversion successful
+[2025-03-18T17:15:09.717Z] ✅ Connected to SQL Server
+[2025-03-18T17:15:09.859Z] ✅ Template updated successfully. Rows affected: 1

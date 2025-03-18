@@ -89,7 +89,14 @@ async function fetchTemplateBody(templateName) {
 // Function to save the HTML body to a file
 function saveBodyToFile(htmlBody) {
 
-  const outputPath = path.join('C:', 'temp', `${templateName}.html`);
+  // Create 'retrievedHTMLTemplates' folder inside C:/temp if it doesn't exist
+  const folderPath = path.join('C:', 'temp', 'retrievedHTMLTemplates');
+  if (!fs.existsSync(folderPath)) {
+    fs.mkdirSync(folderPath, { recursive: true });
+  }
+
+  // Define the output file path with templateName as the filename
+  const outputPath = path.join(folderPath, `${templateName}.html`);
 
   try {
     fs.writeFileSync(outputPath, htmlBody, 'utf8');
@@ -103,7 +110,6 @@ function saveBodyToFile(htmlBody) {
 
 // Main function to process the template and save the body as HTML
 async function processTemplate() {
-
   const htmlBody = await fetchTemplateBody(templateName);
   if (htmlBody) {
     saveBodyToFile(htmlBody); // Save the body to the file
